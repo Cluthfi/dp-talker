@@ -1,0 +1,6 @@
+# Nothing is built here -- this repository is documentation and releases.
+
+.DS_Store
+Thumbs.db
+*.apk
+*.aab
