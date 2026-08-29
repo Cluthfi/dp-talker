@@ -74,8 +74,11 @@ apksigner verify --print-certs DPTalker-x.y.z.apk
 The SHA-256 must match:
 
 ```
-(not yet published — the first signed release will put the fingerprint here)
+DF:11:E0:4A:03:BE:6F:E8:7B:4B:1F:B4:79:0E:97:F9:4A:62:E6:01:F6:92:4C:3A:F8:42:F9:53:BF:0E:8E:C0
 ```
+
+apksigner prints it in lower case without the colons; the app shows it in the
+form above. They are the same 32 bytes.
 
 The same fingerprint is shown inside the app under **Settings → About & safety →
 Signing key**, read from the installed package itself. If the two do not match,
