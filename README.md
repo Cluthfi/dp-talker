@@ -154,7 +154,7 @@ Bug reports and sentence corrections are welcome, and corrections especially:
 the version, build and adapter model make them actionable.
 
 - Issues: [this repository](../../issues)
-- Email: c.luthfi07@gmail.com
+- Email: dptalkersupport@gmail.com
 
 Independent project. No affiliation with, or endorsement by, any equipment
 manufacturer, operator or vessel.
