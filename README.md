@@ -47,7 +47,8 @@ marked on the scrubber so a fault can be jumped to rather than hunted for.
 
 **Sentences it knows.** GGA, GST, VTG, ZDA, RMC, GLL, HDT, THS, ROT, MWV, VBW,
 DPT, Kongsberg PSXN,23, TSS1, and the position-reference telegram family —
-Fanbeam/MDL, CyScan, ASCII17, Artemis, Nautronix.
+Fanbeam/MDL, CyScan, ASCII17, Artemis, Nautronix, and the RadaScan, RADius and
+SpotTrack formats ($PSXST, $PGNKM, $PSXRAD, $PGNMT, $PGNRR, ABBDP).
 
 ---
 
