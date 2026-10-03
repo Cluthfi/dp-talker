@@ -71,9 +71,12 @@ $PGNKM, $PSXRAD, $PGNMT, $PGNRR, ABBDP).
 
 ## Install
 
-Builds are published under [Releases](../../releases).
+Install it from [Google Play](https://play.google.com/store/apps/details?id=io.github.cluthfi.dptalker),
+or download the APK from [Releases](../../releases). The two copies are signed
+by different keys, so neither installs over the other: uninstall one before you
+switch, which deletes its recordings.
 
-**Check the signature before you install.** A sideloaded APK is only as
+**Check the signature before you install an APK.** A sideloaded APK is only as
 trustworthy as the key that signed it:
 
 ```
@@ -89,9 +92,16 @@ DF:11:E0:4A:03:BE:6F:E8:7B:4B:1F:B4:79:0E:97:F9:4A:62:E6:01:F6:92:4C:3A:F8:42:F9
 apksigner prints it in lower case without the colons; the app shows it in the
 form above. They are the same 32 bytes.
 
-The same fingerprint is shown inside the app under **Settings → About & safety →
-Signing key**, read from the installed package itself. If the two do not match,
-the APK is not this app, whatever it calls itself.
+Inside the app, **Settings → About & safety → Signing key** shows the fingerprint
+of the installed copy, read from the package itself. A copy from Releases shows
+the one above. A copy from Google Play is signed by Google's app signing key and
+shows this one:
+
+```
+98:5A:5C:13:2B:FF:90:7A:5E:15:C7:60:50:A7:26:46:39:51:82:6D:9B:60:F1:C4:8A:6A:2C:B3:A3:BA:01:68
+```
+
+Any other value means it is not this app, whatever it calls itself.
 
 ---
 
